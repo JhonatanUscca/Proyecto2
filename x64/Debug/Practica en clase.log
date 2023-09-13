@@ -1,0 +1,123 @@
+﻿  ControladorPrincipal.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(8,12): error C2661: 'Vista_general::Vista_general': ninguna función sobrecargada acepta 3 argumentos
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(8,12): message : al hacer coincidir la lista de argumentos '(int, int, const char [6])'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(11,28): error C2039: "runGame": no es un miembro de "ControladorPrincipal"
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.h(4,7): message : vea la declaración de 'ControladorPrincipal'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(13,5): error C2065: 'Model_Game': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(13,16): error C2146: error de sintaxis: falta ';' delante del identificador 'gameModel'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(13,16): error C2065: 'gameModel': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(14,5): error C2065: 'View_Game': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(14,15): error C2146: error de sintaxis: falta ';' delante del identificador 'gameView'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(14,15): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(31,5): error C2065: 'collisionEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(31,32): error C3861: 'Controller_Collision': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(32,5): error C2065: 'collisionEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(32,32): error C3861: 'Controller_Collision': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,5): error C2065: 'controllerEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,38): error C2039: "make_unique": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,49): error C2065: 'make_unique': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,50): error C2065: 'Controller_Enemy': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,68): error C2065: 'gameModel': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,90): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,110): error C2065: 'players': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(35,119): error C2065: 'collisionEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,5): error C2065: 'controllerEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,38): error C2039: "make_unique": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,49): error C2065: 'make_unique': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,50): error C2065: 'Controller_Enemy': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,68): error C2065: 'gameModel': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,91): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,112): error C2065: 'players': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(36,121): error C2065: 'collisionEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(38,5): error C2065: 'enemy_Updater': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(38,33): error C2065: 'controllerEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(39,5): error C2065: 'enemy_Updater': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(39,33): error C2065: 'controllerEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,10): error C2039: "unique_ptr": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,20): error C2065: 'unique_ptr': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,21): error C2065: 'ItemEffect': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,33): error C2065: 'speedBoostEffect': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,57): error C2039: "make_unique": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,68): error C2065: 'make_unique': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,69): error C2065: 'SpeedBoostEffect': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(41,87): error C2059: error de sintaxis: ')'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(42,5): error C2065: 'modelItems': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(42,57): error C2065: 'speedBoostEffect': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(42,26): error C3861: 'Model_Item': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(43,5): error C2065: 'Controller_Collision': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(43,26): error C2146: error de sintaxis: falta ';' delante del identificador 'collisionItem1'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(43,26): error C3861: 'collisionItem1': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,5): error C2065: 'controllerItems': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,67): error C2065: 'modelItems': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,62): error C2672: 'std::move': no se encontró una función sobrecargada que coincida
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(4808,21): message : puede ser '_OutIt std::move(_InIt,_InIt,_OutIt)'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,62): message : "_OutIt std::move(_InIt,_InIt,_OutIt)": espera 3 argumentos - 1 proporcionado
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\type_traits(1449,64): message : o       'remove_reference<_Ty>::type &&std::move(_Ty &&) noexcept'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,90): error C2065: 'players': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,99): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,119): error C2065: 'collisionItem1': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(44,31): error C3861: 'Controller_Item': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(46,10): error C2039: "cout": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(46,15): error C2065: 'cout': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(46,18): error C2065: 'controllerRoom': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(48,12): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(49,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(49,28): error C2065: 'View_Room': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(49,39): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(50,29): error C2065: 'controllerRoom': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(50,9): error C3861: 'Control_RoomElemets': no se encontró el identificador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(51,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(51,28): error C2065: 'View_Enemy': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(51,40): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(52,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(52,28): error C2065: 'View_Enemy': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(52,40): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(53,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(53,28): error C2065: 'View_Player': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(53,41): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(54,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(54,28): error C2065: 'View_Player': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(54,41): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(55,9): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(55,28): error C2065: 'View_Item': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(55,39): error C2065: 'gameView': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(57,14): error C2039: "vector": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(57,20): error C2065: 'vector': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(57,21): error C2065: 'Controller_Bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(57,39): error C2059: error de sintaxis: '>'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(58,14): error C2065: 'Controller_Bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(58,33): error C2065: 'bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(58,40): error C2143: error de sintaxis: falta ';' delante de ':'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(58,42): error C2065: 'bulletsPlayer1': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(58,56): error C2143: error de sintaxis: falta ';' delante de ')'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(59,37): error C2065: 'controllerEnemies': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(59,13): error C3531: 'collisionE1': un símbolo cuyo tipo contiene 'auto' debe tener un inicializador
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(59,35): error C2143: error de sintaxis: falta ';' delante de ':'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(59,54): error C2143: error de sintaxis: falta ';' delante de ')'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(60,47): error C2065: 'bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(62,13): error C2065: 'ventana': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(62,32): error C2065: 'View_Bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(62,45): error C2065: 'bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(66,14): error C2039: "vector": no es un miembro de "std"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\string(24,1): message : vea la declaración de 'std'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(66,20): error C2065: 'vector': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(66,21): error C2065: 'Controller_Bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(66,39): error C2059: error de sintaxis: '>'
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(67,14): error C2065: 'Controller_Bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(67,33): error C2065: 'bullet': identificador no declarado
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.cpp(67,40): fatal  error C1003: el recuento de errores supera 100; se detiene la compilación
+  Controlador_Update.cpp
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\USUARIO\Downloads\Practica en clase\main.cpp(10,10): error C2039: "runGame": no es un miembro de "ControladorPrincipal"
+C:\Users\USUARIO\Downloads\Practica en clase\ControladorPrincipal.h(4,7): message : vea la declaración de 'ControladorPrincipal'
+  Modelo_Principal.cpp
+  Vista_general.cpp
+  Generando código...
